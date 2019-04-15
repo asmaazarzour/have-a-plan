@@ -1,0 +1,84 @@
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #12253a;
+  color: white;
+  font-family: sans-serif
+}
+
+.text-center {
+  text-align: center;
+  color: #cc9191
+}
+
+.container {
+  width: 60%;
+  margin: 10px auto
+}
+
+.ListItems {
+  background-color: #fff;
+  color: #12253a;
+  width: 100%
+}
+
+.ListItems p{
+  margin: 0;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.ListItems span {
+  display: inline-block;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 20px;
+  border: 0.3px solid #e6e6e6;
+}
+
+.ListItems span.title {
+  background-color: #c62828;
+  color: #fff;
+  border: #c62828
+}
+
+.ListItems span.icon {
+  color: red;
+  cursor: pointer;
+}
+
+.ListItems span.plan,
+form input[type=text] {
+  width: 60%
+}
+
+.ListItems span.date,
+form input[type=number] {
+  width: 30%
+}
+
+.ListItems span.action,
+form input[type=submit] {
+  width: 10%
+}
+
+form input {
+  padding: 10px;
+  background: #ebebeb;
+  border: transparent;
+  border: 0.3px solid #ccc;
+}
+
+form input[type="submit"]{
+  background: #c62828;
+  border: 0.3px solid #c62828;
+  color: #fff;
+  cursor: pointer;
+}
